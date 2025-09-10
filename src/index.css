@@ -17,29 +17,29 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 264 83% 57%;
+    --primary: 200 94% 48%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 264 32% 91%;
+    --secondary: 200 32% 91%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 264 32% 91%;
+    --accent: 200 32% 91%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 264.3 31.8% 91.4%;
-    --input: 264.3 31.8% 91.4%;
-    --ring: 264 83% 57%;
+    --border: 200.3 31.8% 91.4%;
+    --input: 200.3 31.8% 91.4%;
+    --ring: 200 94% 48%;
 
-    /* Custom civic theme colors - Modern Purple & Teal */
-    --civic-blue: 264 83% 57%;
-    --civic-blue-light: 264 75% 70%;
-    --civic-blue-dark: 264 90% 45%;
+    /* Custom civic theme colors - Sky Blue */
+    --civic-blue: 200 94% 48%;
+    --civic-blue-light: 200 89% 65%;
+    --civic-blue-dark: 200 94% 35%;
     --civic-gray: 210 11% 65%;
     --civic-gray-light: 210 17% 96%;
     --civic-success: 158 64% 52%;
@@ -84,7 +84,7 @@ All colors MUST be HSL.
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 264 75% 65%;
+    --primary: 200 89% 65%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -101,12 +101,12 @@ All colors MUST be HSL.
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 264 75% 65%;
+    --ring: 200 89% 65%;
 
-    /* Dark mode civic colors - Modern Purple & Teal */
-    --civic-blue: 264 75% 65%;
-    --civic-blue-light: 264 85% 75%;
-    --civic-blue-dark: 264 85% 50%;
+    /* Dark mode civic colors - Sky Blue */
+    --civic-blue: 200 89% 65%;
+    --civic-blue-light: 200 89% 75%;
+    --civic-blue-dark: 200 89% 50%;
     --civic-gray: 210 11% 65%;
     --civic-gray-light: 217.2 32.6% 17.5%;
     --civic-success: 158 64% 57%;
