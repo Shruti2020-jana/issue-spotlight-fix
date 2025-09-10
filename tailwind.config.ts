@@ -47,6 +47,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        civic: {
+          blue: "hsl(var(--civic-blue))",
+          "blue-light": "hsl(var(--civic-blue-light))",
+          "blue-dark": "hsl(var(--civic-blue-dark))",
+          gray: "hsl(var(--civic-gray))",
+          "gray-light": "hsl(var(--civic-gray-light))",
+          success: "hsl(var(--civic-success))",
+          warning: "hsl(var(--civic-warning))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +71,16 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        "card": "var(--shadow-card)",
+        "button": "var(--shadow-button)",
+        "hero": "var(--shadow-hero)",
       },
       keyframes: {
         "accordion-down": {
