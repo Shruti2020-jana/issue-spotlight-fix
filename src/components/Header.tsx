@@ -16,7 +16,7 @@ const Header = () => {
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <MapPin className="h-8 w-8 text-civic-blue" />
-            <h1 className="text-xl font-bold text-civic-blue">CivicFix</h1>
+            <h1 className="text-xl font-bold text-civic-blue">Shaktiman</h1>
           </div>
           
           <div className="hidden md:flex items-center space-x-6">

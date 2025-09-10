@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Shield, Users, Zap, Eye, Target, Heart } from 'lucide-react';
+import { Shield, Users, Zap, Eye, Target, Heart, Clock, Award, Globe, CheckCircle, TrendingUp, Star } from 'lucide-react';
 
 const About = () => {
   const features = [
@@ -24,6 +24,26 @@ const About = () => {
       title: 'Verified Reports',
       description: 'All submissions are reviewed to ensure legitimate issues receive proper attention.',
     },
+    {
+      icon: Clock,
+      title: '24/7 Monitoring',
+      description: 'Round-the-clock system monitoring ensures no issue goes unnoticed.',
+    },
+    {
+      icon: Award,
+      title: 'Quality Assurance',
+      description: 'Every resolution is quality-checked to ensure lasting solutions.',
+    },
+    {
+      icon: Globe,
+      title: 'City-Wide Coverage',
+      description: 'Comprehensive coverage across all neighborhoods and districts.',
+    },
+    {
+      icon: CheckCircle,
+      title: 'Verified Solutions',
+      description: 'Solutions are verified by both authorities and community members.',
+    },
   ];
 
   const mission = [
@@ -37,6 +57,16 @@ const About = () => {
       title: 'Our Vision',
       description: 'Empowering communities to actively participate in improving their neighborhoods and quality of life.',
     },
+    {
+      icon: TrendingUp,
+      title: 'Our Goal',
+      description: 'Continuously improving civic services through data-driven insights and community feedback.',
+    },
+    {
+      icon: Star,
+      title: 'Our Values',
+      description: 'Transparency, accountability, and citizen empowerment are at the core of everything we do.',
+    },
   ];
 
   return (
@@ -45,14 +75,14 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              About CivicFix
+              About Shaktiman
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Connecting citizens with local authorities to build stronger, more responsive communities
             </p>
           </div>
           
-          {/* Mission & Vision */}
+          {/* Mission, Vision & Values */}
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             {mission.map((item, index) => (
               <Card key={index} className="shadow-card bg-gradient-card border-l-4 border-l-civic-blue">
